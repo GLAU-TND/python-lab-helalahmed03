@@ -8,7 +8,7 @@ j=int(input())
 def xyz(i,j):
     return i+j
 
-if xyz(i,j)>150:
+if xyz(i,j)>=150:
     print(i+j)
 else:
     raise Myexception('Custom Exception Occurred')
